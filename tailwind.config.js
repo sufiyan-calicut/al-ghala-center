@@ -20,7 +20,11 @@ export default {
       '2xl': '1536px',
 
     },
-    extend: {},
+    extend: {
+      backgroundColor: {
+        'app-bg': '#fafafa',
+      },
+    },
   },
   plugins: [],
 };

@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <div className="header w-full h-24 flex bg-slate-100 relative">
+    <div className="w-full h-24 flex relative">
       <div className="w-1/2">{/* logo */}</div>
       <div className="w-1/2 flex lg:justify-start justify-end items-center">
         {menuVisible ? (
@@ -33,7 +33,7 @@ const Header = () => {
             className="lg:hidden h-8 w-8 mr-5 cursor-pointer"
           />
         )}
-        <ul className={`lg:flex ${menuVisible ? 'flex-col menu-list' : 'hidden'} lg:space-x-20 xl:space-x-32 font-semibold tracking-wide absolute top-16 lg:top-auto w-full`}>
+        <ul className={`lg:flex ${menuVisible ? 'flex-col' : 'hidden'} lg:space-x-20 xl:space-x-32 font-semibold tracking-wide absolute top-16 lg:top-auto w-full lg:w-auto bg-app-bg`}>
             <li className="text-lg py-2 text-center">
               <a href="/">Home</a>
             </li>
