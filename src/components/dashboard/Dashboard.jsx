@@ -4,14 +4,17 @@ import dashboard from "/images/dashboard.jpg";
 const Dashboard = () => {
   return (
     <div className="h-screen w-full flex relative">
-      <div className="w-1/2  relative flex flex-col justify-end">
+      <div className="hidden lg:block lg:w-1/2 w-full relative justify-end lg:h-full">
         <img
           src={dashboard}
           alt="Dashboard"
           className="dashboard-image absolute left-1/2 transform -translate-x-1/2 bottom-40 mx-auto"
         />
       </div>
-      <div className="w-1/2 bg-yellow-100"></div>
+      <div className="absolute lg:hidden block bottom-32 left-1/2 transform -translate-x-1/2">
+        <img src={dashboard} alt="Dashboard" className="w-80 h-80" />
+      </div>
+      <div className="lg:w-1/2 w-full h-1/2 lg:h-full"></div>
       <svg
         className="svg-1"
         id="curve"
@@ -32,10 +35,11 @@ const Dashboard = () => {
           transform="translate(83 -214.13)"
         />
       </svg>
-      <div className="cloud-backgroung w-full h-40"
+      <div
+        className="cloud-backgroung w-full h-40"
         style={{
           position: "absolute",
-          top: 850
+          top: 850,
         }}
       ></div>
 
