@@ -12,7 +12,7 @@ const Dashboard = () => {
         />
       </div>
       <div className="absolute lg:hidden block bottom-32 left-1/2 transform -translate-x-1/2">
-        <img src={dashboard} alt="Dashboard" className="w-80 h-80" />
+        <img src={dashboard} alt="Dashboard" className="w-64 h-80" />
       </div>
       <div className="lg:w-1/2 w-full h-1/2 lg:h-full"></div>
       <svg
