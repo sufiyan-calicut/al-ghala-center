@@ -7,11 +7,25 @@ const Dashboard = () => {
       <div className="w-full h-screen flex flex-col lg:flex-row">
         <div className="w-full lg:w-1/2 h-full order-1 lg:order-2 relative">
           {/* Text for smaller screens */}
-          <h1 className="lg:hidden absolute mt-4 left-1/2 transform -translate-x-1/2 font-bold text-sm text-center">
+          <h1 className="lg:hidden absolute mt-4 left-1/2 transform -translate-x-1/2 font-bold text-base text-center">
             Al-Ghala Children <br /> Skill Development Center
           </h1>
           <div className="lg:mt-40 mt-28 lg:mr-28 m-5">
-            <p className="lg:text-lg text-sm tracking-wider">
+            <p className="lg:hidden lg:text-lg text-sm tracking-wider lg:text-left text-center">
+              Al Ghala Children Skill Development Centre is dedicated to
+              nurturing young minds, offering diverse educational and
+              developmental programs. Through innovative activities, we provide
+              a supportive environment for kids to grow academically, socially,
+              and creatively.
+            </p>
+            <br />
+            <p className="lg:hidden lg:text-lg text-sm tracking-wider lg:text-left text-center">
+              With experienced educators and a comprehensive curriculum, we
+              empower children to explore interests, develop skills, and build a
+              strong foundation for future success—a hub of learning and growth
+              for the community's young minds.
+            </p>
+            <p className="hidden lg:block lg:text-lg text-sm tracking-wider">
               Al Ghala Children Skill Development Centre is a dedicated
               institution committed to nurturing the potential of young minds.
               This center offers a wide range of educational and developmental
@@ -19,7 +33,7 @@ const Dashboard = () => {
               talents.
             </p>
             <br />
-            <p className="lg:text-lg text-sm tracking-wider">
+            <p className="hidden lg:block lg:text-lg text-sm tracking-wider">
               With a team of experienced educators and a comprehensive
               curriculum, this center is a place where children can explore
               their interests, develop potential skills, and build a strong
@@ -27,7 +41,7 @@ const Dashboard = () => {
               for young learners in the community.
             </p>
             <br />
-            <p className="lg:text-lg text-sm tracking-wider">
+            <p className="hidden lg:block lg:text-lg text-sm tracking-wider">
               Through innovative and engaging activities, Al Ghala Children
               Skill Development Centre provides a supportive and stimulating
               environment for kids to grow academically, socially, and
