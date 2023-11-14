@@ -36,7 +36,7 @@ const HeaderCopy = () => {
           <ul
             className={`menu-items lg:flex ${
               menuVisible ? "flex-col" : "hidden"
-            } lg:space-x-20 xl:space-x-32 font-semibold tracking-wide absolute top-16 lg:top-auto w-full lg:w-auto bg-app-bg`}
+            } lg:space-x-20 xl:space-x-32 font-medium tracking-wide absolute top-16 lg:top-auto w-full lg:w-auto bg-app-bg`}
           >
             <li className="text-lg py-2 text-center">
               <a href="/">Home</a>
