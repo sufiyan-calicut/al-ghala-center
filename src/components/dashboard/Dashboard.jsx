@@ -1,4 +1,3 @@
-import Header from "../header/Header";
 import dashboard from "/images/dashboard.jpg";
 import "./Dashboard.css";
 
@@ -11,7 +10,7 @@ const Dashboard = () => {
           <h1 className="lg:hidden absolute mt-4 left-1/2 transform -translate-x-1/2 font-bold text-sm text-center">
             Al-Ghala Children <br /> Skill Development Center
           </h1>
-          <div className="">
+          <div className="lg:mt-40 mt-28 lg:mr-28 m-5">
             <p className="lg:text-lg text-sm tracking-wider">
               Al Ghala Children Skill Development Centre is a dedicated
               institution committed to nurturing the potential of young minds.
