@@ -12,7 +12,7 @@ const Dashboard = () => {
           <img
             src={dashboard}
             alt="Dashboard"
-            className="dashboard-image absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-32 lg:w-1/2 lg:h-1/2 w-1/3 h-1/3"
+            className="dashboard-image absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-32 w-1/2 h-1/2"
           />
         </div>
       </div>
