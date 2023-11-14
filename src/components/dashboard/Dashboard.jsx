@@ -3,7 +3,7 @@ import dashboard from "/images/dashboard.jpg";
 
 const Dashboard = () => {
   return (
-    <div className="h-screen w-full flex relative">
+    <div className="h-screen w-full flex relative bg-yellow-100">
       <div className="hidden lg:block lg:w-1/2 w-full relative justify-end lg:h-full">
         <img
           src={dashboard}
