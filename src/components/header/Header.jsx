@@ -1,9 +1,9 @@
 import { useState } from "react";
-import "./Header.css"
+import "./Header.css";
 import menu from "/images/menu.png";
 import close from "/images/close.png";
 
-const Header = () => {
+const HeaderCopy = () => {
   const [menuVisible, setMenuVisible] = useState(false);
 
   const toggleMenuTrue = () => {
@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <div className="w-full h-24 flex relative">
+    <div className="navbar w-full h-24 flex relative">
       <div className="w-1/2">{/* logo */}</div>
       <div className="w-1/2 flex lg:justify-start justify-end items-center">
         {menuVisible ? (
@@ -30,10 +30,14 @@ const Header = () => {
             src={menu}
             alt="Menu"
             onClick={toggleMenuTrue}
-            className="lg:hidden h-8 w-8 mr-5 cursor-pointer"
+            className="lg:hidden h-8 w-8 mr-5 cursor-pointer menu"
           />
         )}
-        <ul className={`lg:flex ${menuVisible ? 'flex-col' : 'hidden'} lg:space-x-20 xl:space-x-32 font-semibold tracking-wide absolute top-16 lg:top-auto w-full lg:w-auto bg-app-bg`}>
+          <ul
+            className={`menu-items lg:flex ${
+              menuVisible ? "flex-col" : "hidden"
+            } lg:space-x-20 xl:space-x-32 font-semibold tracking-wide absolute top-16 lg:top-auto w-full lg:w-auto bg-app-bg`}
+          >
             <li className="text-lg py-2 text-center">
               <a href="/">Home</a>
             </li>
@@ -52,4 +56,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderCopy;

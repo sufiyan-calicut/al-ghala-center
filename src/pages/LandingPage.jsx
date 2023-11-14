@@ -1,10 +1,11 @@
-import Header from "../components/header/Header"
+// import Header from "../components/Header/Header";
 import Dashboard from "../components/dashboard/Dashboard";
+import HeaderCopy from "../components/header/Header";
 
 const LandingPage = () => {
   return (
     <>
-    <Header/>
+    <HeaderCopy/>
     <Dashboard/>
     </>
   )
