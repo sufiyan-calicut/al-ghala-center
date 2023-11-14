@@ -10,7 +10,7 @@ const Dashboard = () => {
           <h1 className="lg:hidden absolute mt-4 left-1/2 transform -translate-x-1/2 font-bold text-sm text-center">
             Al-Ghala Children <br /> Skill Development Center
           </h1>
-          <div className="lg:mt-40 mt-28 lg:mr-28 m-5">
+          <div className="lg:mt-40 mt-20 lg:mr-28 m-5">
             <p className="lg:hidden lg:text-lg text-xs tracking-wider lg:text-left text-center">
               Al Ghala Children Skill Development Centre is dedicated to
               nurturing young minds, offering diverse educational and
@@ -19,7 +19,7 @@ const Dashboard = () => {
               and creatively.
             </p>
             <br />
-            <p className="lg:hidden lg:text-lg text-sm tracking-wider lg:text-left text-center">
+            <p className="lg:hidden lg:text-lg text-xs tracking-wider lg:text-left text-center">
               With experienced educators and a comprehensive curriculum, we
               empower children to explore interests, develop skills, and build a
               strong foundation for future success—a hub of learning and growth
