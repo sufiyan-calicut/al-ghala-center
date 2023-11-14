@@ -11,7 +11,7 @@ const Dashboard = () => {
             Al-Ghala Children <br /> Skill Development Center
           </h1>
           <div className="lg:mt-40 mt-20 lg:mr-28 m-5">
-            <p className="lg:hidden lg:text-lg text-xs tracking-wider lg:text-left text-center">
+            <p className="lg:hidden lg:text-lg text-xs tracking-wider lg:text-left text-justify">
               Al Ghala Children Skill Development Centre is dedicated to
               nurturing young minds, offering diverse educational and
               developmental programs. Through innovative activities, we provide
@@ -19,7 +19,7 @@ const Dashboard = () => {
               and creatively.
             </p>
             <br />
-            <p className="lg:hidden lg:text-lg text-xs tracking-wider lg:text-left text-center">
+            <p className="lg:hidden lg:text-lg text-xs tracking-wider lg:text-left text-justify">
               With experienced educators and a comprehensive curriculum, we
               empower children to explore interests, develop skills, and build a
               strong foundation for future success—a hub of learning and growth
