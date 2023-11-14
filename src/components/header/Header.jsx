@@ -17,7 +17,7 @@ const HeaderCopy = () => {
   return (
     <div className="navbar w-full h-16 flex relative">
       <div className="w-1/2">{/* logo */}</div>
-      <div className="w-1/2 flex lg:justify-start justify-end items-center">
+      <div className="w-1/2 flex lg:justify-start justify-end items-center ">
         {menuVisible ? (
           <img
             src={close}

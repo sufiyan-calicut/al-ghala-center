@@ -5,13 +5,40 @@ import "./Dashboard.css";
 const Dashboard = () => {
   return (
     <>
-      <Header />
       <div className="w-full h-screen flex flex-col lg:flex-row">
-        <div className="w-full lg:w-1/2 bg-red-100 h-full order-1 lg:order-2 relative">
+        <div className="w-full lg:w-1/2 h-full order-1 lg:order-2 relative">
           {/* Text for smaller screens */}
           <h1 className="lg:hidden absolute mt-4 left-1/2 transform -translate-x-1/2 font-bold text-sm text-center">
-            Al-Ghala Children <br/> Skill Development Center
+            Al-Ghala Children <br /> Skill Development Center
           </h1>
+          <div className="">
+            <p className="lg:text-lg text-sm tracking-wider">
+              Al Ghala Children Skill Development Centre is a dedicated
+              institution committed to nurturing the potential of young minds.
+              This center offers a wide range of educational and developmental
+              programs for children, focusing on enhancing their skills and
+              talents.
+            </p>
+            <br />
+            <p className="lg:text-lg text-sm tracking-wider">
+              With a team of experienced educators and a comprehensive
+              curriculum, this center is a place where children can explore
+              their interests, develop potential skills, and build a strong
+              foundation for future success. It is a hub of learning and growth
+              for young learners in the community.
+            </p>
+            <br />
+            <p className="lg:text-lg text-sm tracking-wider">
+              Through innovative and engaging activities, Al Ghala Children
+              Skill Development Centre provides a supportive and stimulating
+              environment for kids to grow academically, socially, and
+              creatively. With a team of experienced educators and a
+              comprehensive curriculum, this center is a place where children
+              can explore their interests, develop potential skills, and build a
+              strong foundation for future success. It is a hub of learning and
+              growth for young learners in the community.
+            </p>
+          </div>
         </div>
         <div className="w-full lg:w-1/2 h-full order-2 lg:order-1 relative">
           <img
